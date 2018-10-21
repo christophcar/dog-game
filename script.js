@@ -49,3 +49,4 @@ class Dog {
 
 new Dog()
 new Dog()
+new Dog()
