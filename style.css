@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: skyblue;
+  border-bottom: 60px solid lightseagreen;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  overflow: hidden;
+  margin: 0;
+}
+
+body:before {
+  content: '';
+  height: 170px;
+  width: 170px;
+  background: lightyellow;
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  right: -35px;
+}
+
+.dog {
+  width: 150px;
+  height: 50px;
+  background: lightslategray;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bark {
+  position: absolute;
+  top: - 25px;
+}
